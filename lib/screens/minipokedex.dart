@@ -190,7 +190,7 @@ class _MiniPokedexPageState extends State<MiniPokedexPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Image.network(
-                        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/$pkmnId.png",
+                        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/$pkmnId.png",
                         width: 80,
                         height: 80,
                         fit: BoxFit.contain,
