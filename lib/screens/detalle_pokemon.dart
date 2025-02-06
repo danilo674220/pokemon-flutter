@@ -79,7 +79,7 @@ class DetallePokemon extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          _buildPokemonImage(pokemonDetails["sprites"]["front_default"]),
+          _buildPokemonImage(pokemonDetails["sprites"]["other"]["official-artwork"]["front_default"]),
           const SizedBox(height: 20),
           _buildPokemonName(pokemonDetails["name"]),
           const SizedBox(height: 20),
